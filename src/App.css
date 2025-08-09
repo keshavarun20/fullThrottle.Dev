@@ -1,0 +1,11 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  margin: 0;
+  background-color: #000000;
+  color: antiquewhite;
+}
