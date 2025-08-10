@@ -1,5 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  
 }
 
 
@@ -8,4 +9,15 @@ body {
   margin: 0;
   background-color: #000000;
   color: antiquewhite;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.page-container {
+  min-height: 100vh; /* fill full viewport */
+  display: flex;
+  flex-direction: column;
 }
